@@ -1,3 +1,8 @@
+.cta-100 {
+  margin-top: 100px;
+  padding-left: 70px;
+  padding-top: 70px;
+}
 /**
 * selector: cta-100 osztály
 * 1. felső margó: 100 képpont
@@ -5,19 +10,27 @@
 * 3. felső padding: 70 pixel
 */
 
-
+.col-md-4 {
+  padding-bottom: 20px;
+}
 /**
 * selector: col-md-4 osztály
 * 4. alsó padding: 20 pixel
 */
 
-
+.white {
+  color: #fff;
+}
 /**
 * selector: white osztály
 * 5. kitöltőszín: fehér
 */
 
-
+.mt {
+  float: left;
+  margin-top: -20px;
+  padding-top: 20px;
+}
 /**
 * selector: mt osztály
 * 6. igazítás: balra
@@ -31,12 +44,18 @@
 }
 figure img{width:300px;}
 
+#blogCarousel {
+  padding-bottom: 100px;
+}
 /**
 * selector: blogCarousel azonosító
 * 9. alsó padding: 100 pixel
 */
 
-
+.blog .carousel-indicators {
+  top: -50px;
+  height: 280px;
+}
 /**
 * selector: a blog osztályú elemen belül lévő carousel-indicators osztályú elemek
 * 10. balról: 0
@@ -44,7 +63,12 @@ figure img{width:300px;}
 * 12. magasság: 280 pixel
 */
 
-
+.blog .carousel-indicators li {
+  background-color: #708198;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
 /* The colour of the indicators */
 /**
 * selector: a blog osztályú elemen belül lévő carousel-indicators osztályú 
@@ -84,6 +108,18 @@ figure img{width:300px;}
   height: auto;
 }
 
+.item-box-blog-date {
+  position: absolute;
+  z-index: 5;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: -20px;
+  right: 8px;
+  background-color: #41cb52;
+  
+}
 /**
 * selector: item-box-blog-date osztályú elemek
 * 17. pozíció: abszolút
@@ -115,6 +151,12 @@ figure img{width:300px;}
   padding: 10px;
 }
 
+.item-box-blog-body a h5 {
+  margin: 0;
+  line-height: 24px;
+  text-decoration: none;
+  transition: all 0s ease 0s;
+}
 /**
 * selector: az item-box-blog-body osztályú elemen belül lévő, a elemekben lévő 
 * h5 elemek
@@ -155,6 +197,12 @@ figure img{width:300px;}
   margin-top: 10px;
 }
 
+.btn,
+.bg-blue-ui,
+.white,
+.read {
+ transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
 /**
 * selector: azok az elemek, amelyek egyszerre tartoznak a 
 * btn, bg-blue-ui, white, read osztályokhoz
